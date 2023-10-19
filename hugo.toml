@@ -1,5 +1,5 @@
 theme = "dark-theme-editor"
-baseURL = 'https://kakur41.github.io/'
+baseURL = 'https://kakur41.github.io/site'
 languageCode = 'ja-jp'
 title = 'Example Site of dark-theme-editor'
 pluralizeListTitles = false
