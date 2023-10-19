@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web開発 on Example Site of dark-theme-editor</title>
+    <link>https://kakur41.github.io/categories/web%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in Web開発 on Example Site of dark-theme-editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 19 Oct 2023 20:13:17 +0900</lastBuildDate><atom:link href="https://kakur41.github.io/categories/web%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの使い方</title>
+      <link>https://kakur41.github.io/%E3%81%9D%E3%81%AE%E4%BB%96%E6%8A%80%E8%A1%93/hugo%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+      <pubDate>Thu, 19 Oct 2023 20:13:17 +0900</pubDate>
+      
+      <guid>https://kakur41.github.io/%E3%81%9D%E3%81%AE%E4%BB%96%E6%8A%80%E8%A1%93/hugo%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</guid>
+      <description>Introduction Hugoは、高速で柔軟な静的サイトジェネレーターです。Go言語で書かれており、シンプルなコマンド一つでウェブサイトをビルドすることができま</description>
+    </item>
+    
+  </channel>
+</rss>
