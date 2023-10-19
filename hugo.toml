@@ -1,0 +1,7 @@
+theme = "dark-theme-editor"
+baseURL = 'https://kakur41.github.io/'
+languageCode = 'ja-jp'
+title = 'Example Site of dark-theme-editor'
+pluralizeListTitles = false
+hasCJKLanguage = true
+enableEmoji = true
