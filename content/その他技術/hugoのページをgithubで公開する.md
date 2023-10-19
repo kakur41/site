@@ -1,7 +1,6 @@
 ---
-title = 'Hugoのページをgithubで公開する'
-date = 2023-10-20T00:28:25+09:00
-draft = true
+title: 'Hugoのページをgithubで公開する'
+date: 2023-10-20T00:28:25+09:00
 categories:
   - Web開発
 tags:
