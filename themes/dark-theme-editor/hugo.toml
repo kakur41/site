@@ -189,4 +189,4 @@
         showBreadcrumb = true
 
         # Should show the "copy" button in the codeblock or not.
-        codeBlockCopible = true
+        codeBlockCopible = false

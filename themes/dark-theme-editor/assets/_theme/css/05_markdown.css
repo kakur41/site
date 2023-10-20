@@ -202,9 +202,7 @@ article.main > div.content pre:not(div.highlight pre) > code {
 }
 
 /*** Highlight Codeblock ***/
-article.main > div.content div.codeblock {
-    margin-top: -2em;
-}
+
 article.main > div.content div.codeblock > div.copy-button-box {
     display: inline-flex;
     top: 2.4em;
