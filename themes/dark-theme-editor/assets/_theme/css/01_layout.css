@@ -34,10 +34,17 @@ aside.sidebar {
     width: 15%;
 }
 
-article {
-    width: var(--artile_main_width);
-}
+
 
 footer {
     height: 3%;
+}
+
+.highlight pre {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+h1, h2 {
+    word-wrap: break-word;
 }

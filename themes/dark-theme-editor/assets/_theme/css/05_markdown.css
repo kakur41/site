@@ -9,7 +9,7 @@
     General
 ***************/
 article.main > div.content * {
-    line-height: 14pt;
+    line-height: 1.0;
 }
 
 article.main > div.content > :first-child {
@@ -47,7 +47,6 @@ article.main > div.content :where(h4, h5, h6) {
 ***************/
 article.main > div.content p {
     line-height: 22pt;
-    text-align: justify;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -184,8 +183,7 @@ article.main > div.content code:not(div.highlight code) {
     font-size: 85%;
     background-color: rgb(92 92 92);
     border-radius: 5pt;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
+    margin: 0.1em 0.2em;
 }
 
 /*** Code block indented with four spaces ***/
@@ -209,10 +207,10 @@ article.main > div.content div.codeblock {
 }
 article.main > div.content div.codeblock > div.copy-button-box {
     display: inline-flex;
-    position: relative;
     top: 2.4em;
     width: 100%;
     justify-content: flex-end;
+    margin: 2.4em 0em 0.4em 0em;
 }
 
 article.main
@@ -341,4 +339,8 @@ article.main > div.content div.footnotes :where(p, p + p) {
 :where(article.main, article.main *)::-webkit-scrollbar-thumb {
     background: rgb(139, 139, 139);
     border-radius: 10pt;
+}
+
+code {
+    display: inline-block; 
 }

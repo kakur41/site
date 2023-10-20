@@ -75,11 +75,11 @@
         border-radius: 20%;
         padding: 0.2em;
         color: #c6c6c7;
-        font-size: 22pt;
+        font-size: 16pt;
         line-height: 0.6em;
         display: block;
         position: fixed;
-        top: 20px;
+        top: 7px;
         right: 10px;
         cursor: pointer;
     }
@@ -160,19 +160,6 @@
         width: 80%;
     }
 
-    /* Add some padding */
-    article.main {
-        padding: 6vw;
-
-        /*
-            6vh: header
-            6vh: footer
-            12vw: <article> padding
-            2pt: border of header and footer
-            12px: padding in footer
-        */
-        min-height: calc(100vh - 6vh - 6vh - 12vw - 2pt - 12px);
-    }
 
     /* move the position of article information */
     article.main > div.title > div.author-date-readtime {
