@@ -69,6 +69,7 @@ article.main {
     color: #c6c6c7;
     padding: 2%;
     overflow-y: auto;
+    width: 100%;
 }
 
 article.main > button.sidebar-toggle-btn {
