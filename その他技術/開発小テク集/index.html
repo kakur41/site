@@ -74,8 +74,8 @@
 
         <link
             rel="stylesheet"
-            href="/site/css/index.min.b8b4f7df24a1f21543a2aea9269e75046ab89df8bcf626bd5a3a5835c18eb729b319a28e01639de333c201729742853006ea47b009f03ce5a496801f504b4cd5.css"
-            integrity="sha512-uLT33ySh8hVDoq6pJp51BGq4nfi89ia9WjpYNcGOtymzGaKOAWOd4zPCAXKXQoUwBupHsAnwPOWkloAfUEtM1Q==" />
+            href="/site/css/index.min.3d25e863fc600b1a05fd7fda3d1f22b2a1f1f38a8ef0688a043918f0a7ce5caca8b91341af3cb42e22117811ffe7816515b1e465b96196a8d9c6df57c50569ee.css"
+            integrity="sha512-PSXoY/xgCxoF/X/aPR8isqHx84qO8GiKBDkY8KfOXKyouRNBrzy0LiIReBH/54FlFbHkZblhlqjZxt9XxQVp7g==" />
     
 
 
@@ -204,6 +204,14 @@
     </ul>
 
 
+                </li>
+            
+        
+            
+                <li class="file">
+                    <a href="https://kakur41.github.io/site/bookmark/" title="./site/bookmark/">
+                        Bookmark
+                    </a>
                 </li>
             
         
@@ -359,6 +367,7 @@
             <nav id="TableOfContents">
   <ul>
     <li><a href="#環境変数をまとめて設定する">環境変数をまとめて設定する</a></li>
+    <li><a href="#browserのセッション切れ防止">browserのセッション切れ防止</a></li>
   </ul>
 </nav>
         
@@ -396,6 +405,24 @@ API=YYY</code></pre>
     
 </div>
 <p>を実行すればまとめてexportできる。</p>
+<h2 id="browserのセッション切れ防止">browserのセッション切れ防止</h2>
+
+
+
+
+
+
+<div class="codeblock">
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ClickConnect</span>(){
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;60sごとに再接続&#34;</span>);
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;colab-connect-button&#34;</span>).<span style="color:#a6e22e">click</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">setInterval</span>(<span style="color:#a6e22e">ClickConnect</span>,<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">60</span>);</span></span></code></pre></div>
+    
+</div>
 
             
         </div>
@@ -462,7 +489,7 @@ API=YYY</code></pre>
                 <li>
                     
                         Word Count:
-                        58
+                        113
                     
                 </li>
             
@@ -485,6 +512,17 @@ API=YYY</code></pre>
             
         </ul>
     </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false}]
+    });
+  });
+</script>
 </footer>
 
     </body>

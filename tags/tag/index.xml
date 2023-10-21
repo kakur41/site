@@ -13,7 +13,7 @@
       <pubDate>Fri, 20 Oct 2023 16:59:58 +0900</pubDate>
       
       <guid>https://kakur41.github.io/site/%E3%81%9D%E3%81%AE%E4%BB%96%E6%8A%80%E8%A1%93/%E9%96%8B%E7%99%BA%E5%B0%8F%E3%83%86%E3%82%AF%E9%9B%86/</guid>
-      <description>環境変数をまとめて設定する KEY=XXX API=YYY のように.envファイルに書いておき、 export $(cat .env| xargs) を実行すればまとめてexportできる。</description>
+      <description>環境変数をまとめて設定する KEY=XXX API=YYY のように.envファイルに書いておき、 export $(cat .env| xargs) を実行すればまとめてexportできる。 browserのセッショ</description>
     </item>
     
   </channel>
