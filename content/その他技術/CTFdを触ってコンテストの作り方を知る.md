@@ -46,7 +46,7 @@ docker run -d -p 8000:8000 ctfd/ctfd
 
 最後に、Adminとしてログインします。いくつかの問題をCTFdに追加し、ローカル環境での動作をテストします。問題を追加するには、Admin Panelタブにアクセスし、`Challenges` セクションから問題を追加できます。
 
-![screen](/images/1.png)
+![screen](/site/images/1.png)
 
 # APIを利用してCTFdに問題を追加する
 
