@@ -28,6 +28,7 @@ draft: false
     - [how2heap](https://github.com/shellphish/how2heap)
     - [glibc(ubuntu)](https://launchpad.net/ubuntu/+source/glibc/)
     - [glibc source(bootlin)](https://elixir.bootlin.com/glibc/glibc-2.35/source)
+    - [pawnyable(kernel)](https://pawnyable.cafe/)
   - Crypto
     - [crypto-attacks](https://github.com/jvdsn/crypto-attacks/tree/master)
     - [mersenne-twister-predictor](https://github.com/kakur41/mersenne-twister-predictor)
