@@ -6,7 +6,16 @@
     <description>Recent content on Example Site of dark-theme-editor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 22 Oct 2023 17:50:32 +0900</lastBuildDate><atom:link href="https://kakur41.github.io/site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Oct 2023 07:40:03 +0900</lastBuildDate><atom:link href="https://kakur41.github.io/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TSGCTF2019振り返り</title>
+      <link>https://kakur41.github.io/site/writeup/sgctf2019%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Sat, 28 Oct 2023 07:40:03 +0900</pubDate>
+      
+      <guid>https://kakur41.github.io/site/writeup/sgctf2019%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description>TSGCTF2019 来週にTSGCTFがあるので問題を振り返る Crypto OPQRX Rubyで書かれたRSA。 GPTでpythonに変換させると下記のようになる。 bits = 4096 P, Q = [getprime(bits)</description>
+    </item>
+    
     <item>
       <title>CTFdを触ってコンテストの作り方を知る</title>
       <link>https://kakur41.github.io/site/%E3%81%9D%E3%81%AE%E4%BB%96%E6%8A%80%E8%A1%93/ctfd%E3%82%92%E8%A7%A6%E3%81%A3%E3%81%A6%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9%E3%82%92%E7%9F%A5%E3%82%8B/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TSGCTF on Example Site of dark-theme-editor</title>
+    <link>https://kakur41.github.io/site/tags/tsgctf/</link>
+    <description>Recent content in TSGCTF on Example Site of dark-theme-editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 28 Oct 2023 07:40:03 +0900</lastBuildDate><atom:link href="https://kakur41.github.io/site/tags/tsgctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TSGCTF2019振り返り</title>
+      <link>https://kakur41.github.io/site/writeup/sgctf2019%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Sat, 28 Oct 2023 07:40:03 +0900</pubDate>
+      
+      <guid>https://kakur41.github.io/site/writeup/sgctf2019%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description>TSGCTF2019 来週にTSGCTFがあるので問題を振り返る Crypto OPQRX Rubyで書かれたRSA。 GPTでpythonに変換させると下記のようになる。 bits = 4096 P, Q = [getprime(bits)</description>
+    </item>
+    
+  </channel>
+</rss>
